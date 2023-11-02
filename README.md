@@ -1,5 +1,11 @@
-# MixSegNet
-Mixed Supervised Learning for Medical Image Segmentation
+# FuseSegNet
+FuseSegNet: Fusing Multiple Supervisory Signals with Multiple CNN- \& ViT-based Networks for Medical Image Segmentation
+
+## Motivation
+
+<img src="demodata.png">
+
+Deep learning has driven remarkable advancements in medical image segmentation. However, the requirement for comprehensive annotations poses a significant challenge due to the labor-intensive and expensive nature of expert annotation. Addressing this challenge, we introduce a fused limited-supervised learning strategy, FuseSegNet, that synergistically harnesses the benefits of Fully-Supervised (FSL), Weakly-Supervised (WSL), and Semi-Supervised Learning (SSL). This approach enables the utilization of various data-efficient annotations for network training, promoting efficient medical image segmentation within realistic clinical scenarios.
 
 ## Requirements
 * Pytorch
@@ -13,8 +19,8 @@ We use the ACDC dataset which you can find here [Official](https://www.creatis.i
 
 1. Clone the repo:
 ```
-git clone https://github.com/ziyangwang007/MixSegNet.git 
-cd MixSegNet
+git clone https://github.com/ziyangwang007/FuseSegNet.git
+cd FuseSegNet
 ```
 
 
@@ -24,7 +30,7 @@ cd code
 ```
 
 ```
-python train_MixSegNet.py 
+python train_FuseSegNet.py 
 ```
 
 3. Test the model
@@ -33,12 +39,13 @@ python train_MixSegNet.py
 python test_2D_fully.py 
 ```
 
+For all other baseline methods, please check our work on Semi-Supervised Baseline Methods
 
-## Semi-Supervised Baseline Methods
 CV-SSL-MIS
 ![Github stars](https://img.shields.io/github/stars/ziyangwang007/CV-SSL-MIS.svg)<br>
 
-## Weakly-Supervised Baseline Methods
+and
+
 CV-WSL-MIS
 ![Github stars](https://img.shields.io/github/stars/ziyangwang007/CV-WSL-MIS.svg)<br>
 
