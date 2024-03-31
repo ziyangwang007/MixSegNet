@@ -1,11 +1,11 @@
-# FuseSegNet
+# MixSegNet
 MixSegNet: Fusing multiple mixed-supervisory signals with multiple views of networks for mixed-supervised medical image segmentation
 
 ## Motivation
 
 <img src="demodata.png">
 
-Deep learning has driven remarkable advancements in medical image segmentation. However, the requirement for comprehensive annotations poses a significant challenge due to the labor-intensive and expensive nature of expert annotation. Addressing this challenge, we introduce a fused limited-supervised learning strategy, FuseSegNet, that synergistically harnesses the benefits of Fully-Supervised (FSL), Weakly-Supervised (WSL), and Semi-Supervised Learning (SSL). This approach enables the utilization of various data-efficient annotations for network training, promoting efficient medical image segmentation within realistic clinical scenarios.
+Deep learning has driven remarkable advancements in medical image segmentation. However, the requirement for comprehensive annotations poses a significant challenge due to the labor-intensive and expensive nature of expert annotation. Addressing this challenge, we introduce a fused limited-supervised learning strategy, MixSegNet, that synergistically harnesses the benefits of Fully-Supervised (FSL), Weakly-Supervised (WSL), and Semi-Supervised Learning (SSL). This approach enables the utilization of various data-efficient annotations for network training, promoting efficient medical image segmentation within realistic clinical scenarios.
 
 ## Requirements
 * Pytorch
