@@ -1,5 +1,5 @@
 # FuseSegNet
-FuseSegNet: Fusing Multiple Supervisory Signals with Multiple CNN- \& ViT-based Networks for Medical Image Segmentation
+MixSegNet: Fusing multiple mixed-supervisory signals with multiple views of networks for mixed-supervised medical image segmentation
 
 ## Motivation
 
@@ -19,8 +19,8 @@ We use the ACDC dataset which you can find here [Official](https://www.creatis.i
 
 1. Clone the repo:
 ```
-git clone https://github.com/ziyangwang007/FuseSegNet.git
-cd FuseSegNet
+git clone https://github.com/ziyangwang007/MixSegNet.git
+cd MixSegNet
 ```
 
 
@@ -51,4 +51,4 @@ CV-WSL-MIS
 
 ## Reference
 
-TBC
+Wang, Ziyang, and Chen Yang. "MixSegNet: Fusing multiple mixed-supervisory signals with multiple views of networks for mixed-supervised medical image segmentation." Engineering Applications of Artificial Intelligence 133 (2024): 108059.
