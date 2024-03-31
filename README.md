@@ -51,4 +51,14 @@ CV-WSL-MIS
 
 ## Reference
 
-Wang, Ziyang, and Chen Yang. "MixSegNet: Fusing multiple mixed-supervisory signals with multiple views of networks for mixed-supervised medical image segmentation." Engineering Applications of Artificial Intelligence 133 (2024): 108059.
+```
+@article{wang2024mixsegnet,
+  title={MixSegNet: Fusing multiple mixed-supervisory signals with multiple views of networks for mixed-supervised medical image segmentation},
+  author={Wang, Ziyang and Yang, Chen},
+  journal={Engineering Applications of Artificial Intelligence},
+  volume={133},
+  pages={108059},
+  year={2024},
+  publisher={Elsevier}
+}
+```
